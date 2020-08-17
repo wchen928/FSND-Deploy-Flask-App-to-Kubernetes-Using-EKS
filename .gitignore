@@ -27,5 +27,4 @@ htmlcov/
 # Direnv
 .envrc
 .direnv
-local.env_file
 aws-auth-patch.yml
