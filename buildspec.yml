@@ -1,7 +1,5 @@
 ---
 version: 0.2
-
-
 phases:
   install:
     runtime-versions:
@@ -29,7 +27,6 @@ phases:
   build:
     commands:
       - docker build --tag $REPOSITORY_URI:$TAG .
-
   post_build:
     commands:
       - docker push $REPOSITORY_URI:$TAG
